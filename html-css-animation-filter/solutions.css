@@ -1,7 +1,17 @@
+/************************
+    SOLUTIONS
+
+************************/
+
+
+/*exercise 1 solution*/
+
 .ex-1-square:hover {
     background-color: red;
     transition: 5s;
 }
+
+/*exercise 2 solution*/
 
 .ex-2-square {
     animation: growing 10s infinite;
@@ -30,6 +40,8 @@
     }
 }
 
+/*exercise 3 solution*/
+
 .ex-3-square:hover {
     animation: ex3-square_to_circle 5s;
 }
@@ -55,4 +67,35 @@
     100% {
         border-radius: 50%;
     }
+}
+
+/*exercise 4 solution*/
+
+.ex-4-square {
+    animation: ex4-fading 5s infinite;
+}
+
+@keyframes ex4-fading {
+
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0.7;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+
 }
