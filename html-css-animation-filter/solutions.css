@@ -209,7 +209,7 @@ la proprietà tranform non dava il giusto effetto */
 /*exercise 10 solution*/
 
 .ex-10-icon:hover  {
-    animation: ex-10-icon_rotation 5s linear infinite;
+    animation: ex-10-icon_rotation 1s linear infinite;
 }
 
 @keyframes ex-10-icon_rotation {
@@ -220,6 +220,36 @@ la proprietà tranform non dava il giusto effetto */
 
     100% {
         transform: rotate(360deg)
+    }
+    
+}
+
+/*exercise 11 solution*/
+
+.ex-11-icon:hover  {
+    animation: ex-11-icon_rotation 5s linear infinite;
+}
+
+@keyframes ex-11-icon_rotation {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(0deg)
     }
     
 }
