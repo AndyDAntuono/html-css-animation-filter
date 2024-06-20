@@ -29,3 +29,30 @@
         width: 900px;
     }
 }
+
+.ex-3-square:hover {
+    animation: ex3-square_to_circle 5s;
+}
+
+@keyframes ex3-square_to_circle {
+    
+    0% {
+        border-radius: 0%;
+    }
+
+    25% {
+        border-radius: 12.5%;
+    }
+
+    50% {
+        border-radius: 25%;
+    }
+
+    75% {
+        border-radius: 32.5%;
+    }
+
+    100% {
+        border-radius: 50%;
+    }
+}
