@@ -253,3 +253,15 @@ la proprietà tranform non dava il giusto effetto */
     }
     
 }
+
+/*exercise 12 solution*/
+
+.ex-12-top-white:hover {
+    left: 50%;
+    transition: 5s;
+}
+
+.ex-12-bottom-white:hover {
+    right: 50%;
+    transition: 5s;
+}
