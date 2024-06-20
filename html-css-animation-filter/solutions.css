@@ -196,3 +196,12 @@
 
 /*Per ricreare gli effetti impostati ho preferito :active anziché :hover perché altrimenti
 la proprietà tranform non dava il giusto effetto */
+
+/*exercise 9 solution*/
+
+.ex-9-img:hover {
+    filter: hue-rotate(360deg);
+    transform: rotate(360deg);
+    border-radius: 40px;
+    transition: 10s;
+}
