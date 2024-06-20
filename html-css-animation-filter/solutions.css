@@ -205,3 +205,21 @@ la proprietà tranform non dava il giusto effetto */
     border-radius: 40px;
     transition: 10s;
 }
+
+/*exercise 10 solution*/
+
+.ex-10-icon:hover  {
+    animation: ex-10-icon_rotation 5s linear infinite;
+}
+
+@keyframes ex-10-icon_rotation {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+    
+}
