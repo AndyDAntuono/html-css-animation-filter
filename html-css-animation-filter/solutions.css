@@ -137,7 +137,7 @@
 
 .ex-5-square:active {
     animation: ex-5-square-shrinking 5s;
-    /*non se dipende se usato l'effetto sbagliato, ma il rimpicciolimento si manifesta solo
+    /*non so se ho usato l'effetto sbagliato, ma il rimpicciolimento si manifesta solo
       se si clicca sul quadrato rosso e si tiene premuto col mouse*/
 }
 
@@ -168,4 +168,11 @@
         height: 30px;
     }
     
+}
+
+/*exercise 6 solution*/
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+    transition: 5s;
 }
