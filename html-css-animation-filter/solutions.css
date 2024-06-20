@@ -184,3 +184,15 @@
     border-radius: 50%;
     transition: 10s;
 }
+
+/*exercise 8 solution*/
+
+.ex-8-img:active {
+    filter: invert(100%);
+    transform: scaleX(-1);
+    border-radius: 25px;
+    transition: 10s;
+}
+
+/*Per ricreare gli effetti impostati ho preferito :active anziché :hover perché altrimenti
+la proprietà tranform non dava il giusto effetto */
