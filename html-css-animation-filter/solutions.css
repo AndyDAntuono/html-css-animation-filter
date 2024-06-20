@@ -3,3 +3,29 @@
     transition: 5s;
 }
 
+.ex-2-square {
+    animation: growing 10s infinite;
+}
+
+@keyframes growing  {
+
+    0% {
+        width: 100px;
+    }
+
+    25% {
+        width: 325px;
+    }
+
+    50% {
+        width: 550px;
+    }
+
+    75% {
+        width: 775px;
+    }
+
+    100% {
+        width: 900px;
+    }
+}
