@@ -219,7 +219,7 @@ la proprietà tranform non dava il giusto effetto */
     }
 
     100% {
-        transform: rotate(360deg)
+        transform: rotate(360deg);
     }
     
 }
@@ -249,19 +249,87 @@ la proprietà tranform non dava il giusto effetto */
     }
 
     100% {
-        transform: rotate(0deg)
+        transform: rotate(0deg);
     }
     
 }
 
 /*exercise 12 solution*/
 
-.ex-12-top-white:hover {
+.ex-12-button:hover .ex-12-top-white {
     left: 50%;
     transition: 5s;
 }
 
-.ex-12-bottom-white:hover {
+.ex-12-button:hover .ex-12-bottom-white {
     right: 50%;
     transition: 5s;
+}
+
+/*exercise 13 solution*/
+
+.ex-13-button:hover .ex-13-top-white  {
+    animation: ex-13-top-white_rotation 5s linear infinite;
+}
+
+@keyframes ex-13-top-white_rotation {
+
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+
+    25% {
+        top: -10px;
+        left: 90%;
+    }
+
+    50% {
+        top: 60px;
+        left: 90%;
+    }
+
+    75% {
+        top: 60px;
+        left: 0%;
+    }
+
+    100% {
+        top: -10px;
+        left: 0%;
+    }
+    
+}
+
+.ex-13-button:hover .ex-13-bottom-white  {
+    animation: ex-13-bottom-white_rotation 5s linear infinite;
+}
+
+@keyframes ex-13-bottom-white_rotation {
+
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+
+    25% {
+        bottom: -10px;
+        right: 90%;
+    }
+
+    50% {
+        bottom: 60px;
+        right: 90%;
+    }
+
+    75% {
+        bottom: 60px;
+        right: 0%;
+    }
+
+    100% {
+        bottom: -10px;
+        right: 10%;
+    }
+    
 }
