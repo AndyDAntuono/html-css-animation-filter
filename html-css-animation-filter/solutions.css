@@ -176,3 +176,11 @@
     filter: grayscale(100%);
     transition: 5s;
 }
+
+/*exercise 7 solution*/
+
+.ex-7-img:hover {
+    filter: sepia(100%);
+    border-radius: 50%;
+    transition: 10s;
+}
